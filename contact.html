@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact & Request a Quote | 88 Holdings Ltd</title>
+  <meta name="description" content="Contact 88 Holdings Ltd by email, phone or WhatsApp to request a quote or discuss custom branded glass water bottles. Based in Camden, London.">
+  <meta name="theme-color" content="#0d0d0d">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="draft-bar">Draft for client review. Content comes from the company profile; items marked TODO are still to be confirmed.</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="88 Holdings Ltd, home">
+        <img src="assets/logo-mark.png" alt="" width="40" height="47">
+        <span class="brand-name">88 Holdings Ltd</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open menu</span><span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="btn btn-gold nav-cta" href="contact.html">Request a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-banner">
+      <div class="container">
+        <h1>Contact us</h1>
+        <p>We aim to respond quickly with pricing and product availability.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="touch-title">
+      <div class="container contact-grid">
+        <div>
+          <hr class="rule">
+          <h2 id="touch-title">Get in touch</h2>
+          <p class="lede">Whether you're placing an order, requesting a quote, or discussing a custom design, feel free to get in touch.</p>
+          <dl class="contact-list">
+            <div><dt>Email</dt><dd><a href="mailto:88holdings9196@gmail.com">88holdings9196@gmail.com</a></dd></div>
+            <div><dt>Phone / WhatsApp</dt><dd><a href="tel:+447397000073">+44 7397000073</a><br><a href="tel:+447311144777">+44 7311144777</a></dd></div>
+            <div><dt>Address</dt><dd>237 Camden High Street,<br>London, England, NW1 7BU</dd></div>
+            <div><dt>Opening hours</dt><dd><span class="todo">[TODO: add opening hours]</span></dd></div>
+          </dl>
+        </div>
+
+        <form class="form" id="enquiry-form" novalidate>
+          <h2 style="font-size:1.8rem;margin-bottom:0">Send an enquiry</h2>
+          <p class="form-hint">Fields marked with an asterisk (*) are required.</p>
+
+          <div class="form-row two">
+            <div class="field">
+              <label for="name">Name *</label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-err">
+              <p class="error-msg" id="name-err"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-err">
+              <p class="error-msg" id="email-err"></p>
+            </div>
+          </div>
+
+          <div class="form-row two">
+            <div class="field">
+              <label for="phone">Phone <span class="optional">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="company">Business name <span class="optional">(optional)</span></label>
+              <input id="company" name="company" type="text" autocomplete="organization">
+            </div>
+          </div>
+
+          <div class="form-row two">
+            <div class="field">
+              <label for="size">Bottle <span class="optional">(optional)</span></label>
+              <select id="size" name="size">
+                <option value="">Not sure yet</option>
+                <option>330ml glass still water</option>
+                <option>330ml glass sparkling water</option>
+                <option>750ml glass still water</option>
+                <option>750ml glass sparkling water</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="quantity">Quantity *</label>
+              <input id="quantity" name="quantity" type="text" inputmode="numeric" required aria-describedby="quantity-err">
+              <p class="error-msg" id="quantity-err"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Branding requirements *</label>
+            <textarea id="message" name="message" required aria-describedby="message-err"></textarea>
+            <p class="error-msg" id="message-err"></p>
+          </div>
+
+          <p class="form-hint">After your enquiry, send your logo or artwork by email and we'll create a mock-up for your approval.</p>
+          <button class="btn btn-gold" type="submit">Send enquiry</button>
+          <p class="form-status" id="form-status" role="status" tabindex="-1"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-mist" aria-labelledby="order-title">
+      <div class="container">
+        <div class="section-head">
+          <hr class="rule">
+          <h2 id="order-title">What happens next</h2>
+          <p class="lede">All orders and enquiries are handled directly by email to ensure a simple, personalised service. A full website is coming soon.</p>
+        </div>
+        <ol class="steps steps-4">
+          <li><strong>Send your enquiry</strong><p>Email us with your quantity and branding requirements.</p></li>
+          <li><strong>Share your logo or artwork</strong><p>Send your logo or design files, and we'll create a visual mock-up for your approval.</p></li>
+          <li><strong>Approve your design</strong><p>Once you're happy with the mock-up and bottle selection, we'll confirm your order and provide a production timeline.</p></li>
+          <li><strong>Production &amp; delivery</strong><p>Your customised bottles are produced, quality-checked, and delivered directly to your location.</p></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html" aria-label="88 Holdings Ltd, home">
+            <img src="assets/logo-mark.png" alt="" width="40" height="47">
+            <span class="brand-name">88 Holdings Ltd</span>
+          </a>
+          <p>Premium customised glass water bottles for restaurants, cafés, hotels, offices, gyms, events and corporate businesses.</p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <p><a href="mailto:88holdings9196@gmail.com">88holdings9196@gmail.com</a></p>
+          <p>Phone/WhatsApp: <a href="tel:+447397000073">+44 7397000073</a></p>
+          <p>Phone/WhatsApp: <a href="tel:+447311144777">+44 7311144777</a></p>
+          <p>237 Camden High Street,<br>London, England, NW1 7BU</p>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; <span id="year">2026</span> 88 Holdings Ltd. <span class="todo">[TODO: add company registration number]</span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
